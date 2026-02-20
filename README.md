@@ -74,7 +74,7 @@ project_root/
 ```
 ---
 
-##📌 Conclusion
+## 📌 Conclusion
 
 This project demonstrates a fully functional, privacy-preserving Hindi Voice Assistant optimized for Raspberry Pi 4 (2GB RAM). The solution runs entirely offline and meets the performance and design goals of the Bharat AI-SoC Student Challenge.
 

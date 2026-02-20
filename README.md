@@ -4,25 +4,25 @@
 
 ---
 
-## 📌 Project Overview
+##  Project Overview
 
 This project implements a fully offline Hindi Voice Assistant running on a **Raspberry Pi 4 (2GB RAM)**. The assistant processes Hindi voice commands locally using on-device Automatic Speech Recognition (ASR) and Text-to-Speech (TTS) without any cloud dependency.
 
 The system performs:
 
-- 🎤 Speech-to-Text using Vosk Hindi Model  
-- 🧠 Intent Recognition using custom Python logic  
-- 🔊 Text-to-Speech using eSpeak-NG  
-- 🌐 Website launching  
-- 💻 Application launching  
-- 🕒 Time and Date queries  
-- 🔐 100% Offline processing  
+-  Speech-to-Text using Vosk Hindi Model  
+-  Intent Recognition using custom Python logic  
+-  Text-to-Speech using eSpeak-NG  
+-  Website launching  
+-  Application launching  
+-  Time and Date queries  
+-  100% Offline processing  
 
 All inference runs entirely on the Raspberry Pi CPU.
 
 ---
 
-## 🧠 System Architecture
+##  System Architecture
 
 USB Microphone  
 → Audio Capture (sounddevice)  
@@ -34,7 +34,7 @@ USB Microphone
 
 ---
 
-## 🖥️ Hardware Configuration
+##  Hardware Configuration
 
 | Component | Specification |
 |------------|---------------|
@@ -46,7 +46,7 @@ USB Microphone
 
 ---
 
-## 🧰 Software Stack
+##  Software Stack
 
 | Component | Technology Used |
 |------------|----------------|
@@ -57,9 +57,10 @@ USB Microphone
 | Intent Logic | Custom Python |
 | Fuzzy Matching | difflib.SequenceMatcher |
 
+
 ---
 
-## 📂 Project Folder Structure
+##  Project Folder Structure
 ```
 project_root/
 │
@@ -74,7 +75,7 @@ project_root/
 ```
 ---
 
-## 📌 Conclusion
+##  Conclusion
 
 This project demonstrates a fully functional, privacy-preserving Hindi Voice Assistant optimized for Raspberry Pi 4 (2GB RAM). The solution runs entirely offline and meets the performance and design goals of the Bharat AI-SoC Student Challenge.
 
